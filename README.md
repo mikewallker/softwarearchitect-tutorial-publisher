@@ -30,8 +30,13 @@ For 5 messages:
 **This means both the publisher and subscriber are connecting to the same local RabbitMQ (or other AMQP broker) instance, using the same credentials and port, so they are communicating over the same message queue.**
 
 ## Screenshot of Running RabbitMQ
-![My local image](running_rabbitmq.png)
+![Running RabbitMQ](running_rabbitmq.png)
 
 ## Screenshot of sending and processing event
 The left side is subscriber console, the right side is publisher console. When I run publisher, it will send 5 events to the message broker as shown in the subscriber console that processed and captured it
-![My local image2](send_process.png)
+![Send Process](send_process.png)
+
+## Monitoring chart based on publisher.
+The spikes capturing the message rates of the event sent by the publisher. There are 2 spikes, meaning in the last minute, there are two separate range of time in which the publisher sent events.
+![Monitor Chart](monitor_chart.png)
+
