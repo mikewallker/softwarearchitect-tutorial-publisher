@@ -28,3 +28,6 @@ For 5 messages:
 
 
 **This means both the publisher and subscriber are connecting to the same local RabbitMQ (or other AMQP broker) instance, using the same credentials and port, so they are communicating over the same message queue.**
+
+## Screenshot of Running RabbitMQ
+![My local image](running_rabbitmq.png)
