@@ -31,3 +31,7 @@ For 5 messages:
 
 ## Screenshot of Running RabbitMQ
 ![My local image](running_rabbitmq.png)
+
+## Screenshot of sending and processing event
+The left side is subscriber console, the right side is publisher console. When I run publisher, it will send 5 events to the message broker as shown in the subscriber console that processed and captured it
+![My local image2](send_process.png)
